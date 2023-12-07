@@ -19,7 +19,7 @@ const Topbar = () => {
       <div className="flex-between py-4 px-5">
         <Link to="/" className="flex gap-3 items-center">
           <img
-            src="/assets/images/logo.svg"
+            src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/112/8735101112_0b19e4c2-0616-482a-a196-093ef4071527.png?cb=1701912869"
             alt="logo"
             width={130}
             height={325}
