@@ -75,7 +75,7 @@ const SignupForm = () => {
   return (
     <Form {...form}>
       <div className="sm:w-420 flex-center flex-col">
-        <img src="/assets/images/logo.svg" alt="logo" />
+        <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/112/8735101112_0b19e4c2-0616-482a-a196-093ef4071527.png?cb=1701912869" alt="logo" />
 
         <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">
           Create a new account
