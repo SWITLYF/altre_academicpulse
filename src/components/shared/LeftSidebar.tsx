@@ -29,8 +29,8 @@ const LeftSidebar = () => {
       <div className="flex flex-col gap-11">
         <Link to="/" className="flex gap-3 items-center">
         <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/112/8735101112_0b19e4c2-0616-482a-a196-093ef4071527.png?cb=1701912869" alt="logo"
-        width={180}
-        height={180} />
+        width={100}
+        height={100} />
         </Link>
 
         {isLoading || !user.email ? (
