@@ -7,12 +7,10 @@ import {
   useLocation,
 } from "react-router-dom";
 
-// import { Button } from "@/components/ui";
 import { LikedPosts } from "@/_root/pages";
 import { useUserContext } from "@/context/AuthContext";
 import { useGetUserById } from "@/lib/react-query/queries";
 import { GridPostList, Loader } from "@/components/shared";
-import FollowButton from "./FollowButton"
 
 interface StabBlockProps {
   value: string | number;
@@ -91,11 +89,7 @@ const Profile = () => {
               </Link>
             </div>
             <div className={`${user.id === id && "hidden"}`}>
-              {/* <Button type="button" className="shad-button_primary px-8">
-                Follow
-              </Button> */}
-              {/* <FollowButton/> */}
-            </div>
+              
           </div>
         </div>
       </div>
