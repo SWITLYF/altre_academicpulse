@@ -27,7 +27,9 @@ const LeftSidebar = () => {
   return (
     <nav className="leftsidebar">
       <div className="flex flex-col gap-11">
-        
+        <Link to="/" className="flex gap-3 items-center">
+        <img src="/assets/images/img.webp" alt="logo" />
+        </Link>
 
         {isLoading || !user.email ? (
           <div className="h-14">
