@@ -29,8 +29,8 @@ const LeftSidebar = () => {
       <div className="flex flex-col gap-11">
         <Link to="/" className="flex gap-3 items-center">
         <img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/112/8735101112_0b19e4c2-0616-482a-a196-093ef4071527.png?cb=1701912869" alt="logo"
-        width={80}
-        height={80} />
+        className="h-14 w-14 full"
+         />
         </Link>
 
         {isLoading || !user.email ? (
@@ -42,7 +42,7 @@ const LeftSidebar = () => {
             <img
               src={user.imageUrl || "/assets/icons/profile-placeholder.svg"}
               alt="profile"
-              className="h-14 w-14 rounded-full"
+              className="h-14 w-14 full"
             />
             <div className="flex flex-col">
               <p className="body-bold">{user.name}</p>
